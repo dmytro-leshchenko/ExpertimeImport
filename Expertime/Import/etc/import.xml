@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Expertime_Import:etc/import.xsd">
+    <entity name="expertime_single" label="Expertime Single Customer" model="Expertime\Import\Model\Import" behaviorModel="Magento\ImportExport\Model\Source\Import\Behavior\Custom" />
+</config>

@@ -1,0 +1,9 @@
+.customers {
+    background-color: #fff5c1;
+    padding: 20px;
+}
+
+.customers .title {
+    font-weight: 600;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Expertime::import" title="Expertime" translate="title" module="Expertime_Import" sortOrder="99" parent="Magento_Backend::system" resource="Expertime_Import::import" />
+		<add id="Expertime_Import::index_index" action="expertime_import/index/index" module="Expertime_Import" parent="Expertime::import" resource="Expertime_Import::index_index" sortOrder="9999" title="Import customers"/>
+	</menu>
+</config>

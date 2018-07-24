@@ -1,0 +1,22 @@
+{
+    "name": "expertime/module-import",
+    "description": "",
+    "type": "expertime-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "dmitriy.absolute@gmail.com",
+            "name": "Dmytro Leshchenko"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Expertime\\Import\\": ""
+        }
+    }
+}
